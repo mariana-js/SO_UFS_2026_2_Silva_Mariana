@@ -2,9 +2,13 @@
 ## Processos, Threads, Escalonamento e Inferência Local com Ollama
 
 Discente: Mariana Silva
+
 Curso: Engenharia da Computação
+
 Instituição: Universidade Federal de Sergipe — UFS
+
 Período: 2026.2
+
 Modalidade: Individual
 
 ### Sobre o projeto
