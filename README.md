@@ -7,7 +7,7 @@ Instituição: Universidade Federal de Sergipe — UFS
 Período: 2026.2
 Modalidade: Individual
 
-###Sobre o projeto
+### Sobre o projeto
 
 Este repositório contém os arquivos referentes à Atividade 1 da disciplina de Sistemas Operacionais.
 
@@ -17,11 +17,11 @@ Navegador → Open WebUI → Ollama → Modelo de linguagem → Sistema operacio
 
 O objetivo é analisar a relação entre a execução de uma aplicação de inteligência artificial generativa e os mecanismos de Sistemas Operacionais, com foco em processos, threads, escalonamento, CPU, memória, armazenamento, comunicação e chamadas de sistema.
 
-###Trilha selecionada
+### Trilha selecionada
 
-####Trilha A — Chat local: Ollama + Open WebUI
+#### Trilha A — Chat local: Ollama + Open WebUI
 
-###Componentes
+### Componentes
 
 Componente	Utilização
 WSL2	Ambiente de execução Linux
@@ -33,7 +33,7 @@ CPU	Processamento da inferência
 RAM	Armazenamento temporário dos dados e pesos
 Armazenamento	Modelos, aplicação, dados e logs
 
-###Ambiente experimental
+### Ambiente experimental
 
 - Sistema: WSL2
 - Distribuição: Ubuntu 26.04.1 LTS
@@ -46,9 +46,9 @@ Armazenamento	Modelos, aplicação, dados e logs
 - Ollama: 0.34.2
 - Open WebUI: v0.11.4
 
-###Modelo utilizado
+### Modelo utilizado
 
-####Meta Llama 3.2 3B Instruct
+#### Meta Llama 3.2 3B Instruct
 
 - Família: Llama 3.2
 - Parâmetros: aproximadamente 3,21 bilhões
@@ -59,7 +59,7 @@ Armazenamento	Modelos, aplicação, dados e logs
 
 O modelo foi escolhido considerando o limite de parâmetros estabelecido na atividade e as características do hardware disponível para execução local.
 
-###Arquitetura
+### Arquitetura
 
 Usuário
    │
@@ -79,9 +79,9 @@ Llama 3.2 3B
    ▼
 CPU / RAM / Armazenamento
 
-###Instalação e execução
+### Instalação e execução
 
-####Ollama
+#### Ollama
 
 Verificação da versão:
 
@@ -103,7 +103,7 @@ Teste da API:
 
 curl http://localhost:11434/api/tags
 
-####Open WebUI
+#### Open WebUI
 
 O Open WebUI foi executado utilizando uv e Python 3.11.
 
@@ -116,7 +116,7 @@ A interface pode ser acessada localmente em:
 
 http://localhost:8080
 
-###Experimentos
+### Experimentos
 
 Os experimentos serão utilizados para analisar:
 
@@ -135,7 +135,7 @@ Serão realizadas pelo menos 12 execuções mensuráveis, organizadas em diferen
 
 Os resultados, tabelas e gráficos serão adicionados ao repositório após a coleta dos dados.
 
-###Estrutura do repositório
+### Estrutura do repositório
 
 SO_UFS_2026_2_Silva_Mariana/
 │
@@ -153,7 +153,7 @@ Os diretórios serão preenchidos progressivamente durante a realização dos ex
 
 Os pesos do modelo não serão armazenados neste repositório.
 
-###Reprodutibilidade
+### Reprodutibilidade
 
 Para reproduzir o ambiente experimental, são necessários:
 
@@ -167,7 +167,7 @@ Para reproduzir o ambiente experimental, são necessários:
 
 Os comandos completos utilizados no experimento serão documentados no relatório e neste repositório.
 
-###Resultados
+### Resultados
 
 Os resultados experimentais serão adicionados após a realização das medições.
 
@@ -183,20 +183,20 @@ Serão apresentados:
 - gráficos;
 - análise dos resultados.
 
-###Relatório
+### Relatório
 
 O relatório completo da atividade contém a descrição do ambiente, metodologia, evidências, experimentos, resultados, análise e conclusões.
 
-###Vídeo
+### Vídeo
 
 O vídeo de apresentação da atividade será disponibilizado posteriormente.
 
 URL: a definir.
 
-###Referências principais
+### Referências principais
 
-Ollama — https://github.com/ollama/ollama
-Open WebUI — https://github.com/open-webui/open-webui
-Llama 3.2 — https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct
-Linux man-pages — https://man7.org/linux/man-pages/
-Linux Kernel Documentation — https://docs.kernel.org/
+- Ollama — https://github.com/ollama/ollama
+- Open WebUI — https://github.com/open-webui/open-webui
+- Llama 3.2 — https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct
+- Linux man-pages — https://man7.org/linux/man-pages/
+- Linux Kernel Documentation — https://docs.kernel.org/
