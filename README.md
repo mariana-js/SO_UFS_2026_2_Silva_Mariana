@@ -127,14 +127,23 @@ Os resultados, tabelas e gráficos serão adicionados ao repositório após a co
 
 SO_UFS_2026_2_Silva_Mariana/
 │
+
 ├── README.md
+
 ├── scripts/
+
 ├── configuracao/
+
 ├── dados/
+
 ├── logs/
+
 ├── evidencias/
+
 ├── graficos/
+
 ├── documentacao/
+
 └── VIDEO.md
 
 Os diretórios serão preenchidos progressivamente durante a realização dos experimentos.
