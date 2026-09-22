@@ -71,23 +71,23 @@ Usuário -> Navegador Web -> Open WebUI -> HTTP / API local -> Ollama -> Llama 3
 
 #### Ollama
 
-###### Verificação da versão:
+Verificação da versão:
 
    ollama --version
 
-###### Download do modelo:
+Download do modelo:
 
    ollama pull llama3.2:3b
 
-###### Execução:
+Execução:
 
    ollama run llama3.2:3b
 
-###### Verificação dos modelos:
+Verificação dos modelos:
 
    ollama list
 
-###### Teste da API:
+Teste da API:
 
    curl http://localhost:11434/api/tags
 
