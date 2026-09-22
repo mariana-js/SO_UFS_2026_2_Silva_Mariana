@@ -1,4 +1,4 @@
-#Sistemas Operacionais — Atividade 1
+# Sistemas Operacionais — Atividade 1
 ##Processos, Threads, Escalonamento e Inferência Local com Ollama
 
 Discente: Mariana Silva
