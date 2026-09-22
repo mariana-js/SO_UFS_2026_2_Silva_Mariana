@@ -1,5 +1,5 @@
 # Sistemas Operacionais — Atividade 1
-##Processos, Threads, Escalonamento e Inferência Local com Ollama
+## Processos, Threads, Escalonamento e Inferência Local com Ollama
 
 Discente: Mariana Silva
 Curso: Engenharia da Computação
