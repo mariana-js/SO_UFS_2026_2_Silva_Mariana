@@ -65,60 +65,44 @@ O modelo foi escolhido considerando o limite de parâmetros estabelecido na ativ
 
 ### Arquitetura
 
-Usuário
-   │
-   ▼
-Navegador Web
-   │
-   ▼
-Open WebUI
-   │
-   │ HTTP / API local
-   ▼
-Ollama
-   │
-   ▼
-Llama 3.2 3B
-   │
-   ▼
-CPU / RAM / Armazenamento
+Usuário -> Navegador Web -> Open WebUI -> HTTP / API local -> Ollama -> Llama 3.2 3B -> CPU / RAM / Armazenamento
 
 ### Instalação e execução
 
 #### Ollama
 
-Verificação da versão:
+###### Verificação da versão:
 
-ollama --version
+   ollama --version
 
-Download do modelo:
+###### Download do modelo:
 
-ollama pull llama3.2:3b
+   ollama pull llama3.2:3b
 
-Execução:
+###### Execução:
 
-ollama run llama3.2:3b
+   ollama run llama3.2:3b
 
-Verificação dos modelos:
+###### Verificação dos modelos:
 
-ollama list
+   ollama list
 
-Teste da API:
+###### Teste da API:
 
-curl http://localhost:11434/api/tags
+   curl http://localhost:11434/api/tags
 
 #### Open WebUI
 
 O Open WebUI foi executado utilizando uv e Python 3.11.
 
-curl -LsSf https://astral.sh/uv/install.sh | sh
-source $HOME/.local/bin/env
-uv --version
-DATA_DIR=~/.open-webui uvx --python 3.11 open-webui@latest serve
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   source $HOME/.local/bin/env
+   uv --version
+   DATA_DIR=~/.open-webui uvx --python 3.11 open-webui@latest serve
 
 A interface pode ser acessada localmente em:
 
-http://localhost:8080
+   http://localhost:8080
 
 ### Experimentos
 
