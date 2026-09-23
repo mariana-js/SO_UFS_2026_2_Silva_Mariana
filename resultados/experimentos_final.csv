@@ -1,0 +1,13 @@
+execucao,configuracao,entrada,repeticao,tempo_total_s,load_s,prompt_tokens,output_tokens,tokens_s,erro
+1,C1,Curta,1,25.151,14.401,53,34,5.23,OK
+2,C1,Curta,2,13.861,0.015,53,64,4.78,OK
+3,C1,Longa,1,18.942,0.009,117,64,5.14,OK
+4,C1,Longa,2,12.741,0.005,117,64,5.14,OK
+6,C2,Curta,2,13.041,0.002,53,64,5.04,OK
+5,C2,Curta,1,27.138,0.003,53,64,4.60,OK
+7,C2,Longa,1,13.191,0.004,117,64,4.97,OK
+8,C2,Longa,2,27.371,0.004,117,64,4.59,OK
+9,C3,Curta,1,22.423,13.056,53,32,5.85,OK
+10,C3,Curta,2,11.722,0.003,53,64,5.62,OK
+11,C3,Longa,1,20.622,0.002,117,64,4.52,OK
+12,C3,Longa,2,13.234,0.054,117,64,4.97,OK
